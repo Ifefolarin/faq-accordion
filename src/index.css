@@ -10,8 +10,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   padding: 0;
-  /* margin-top: 10rem; */
-  height: 80dvh;
+  margin-top: 10rem;
+/*   height: 80dvh; */
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@ p {
 
 @media (max-width: 450px) {
   body {
-    height: 90dvh;
+/*     height: 90dvh; */
     background-image: url(../faq-accordion-main/assets/images/background-pattern-mobile.svg);
     background-size: contain;
     background-repeat: no-repeat;
