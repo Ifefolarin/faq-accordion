@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: hsl(275, 100%, 97%);
+  background-image: url(../faq-accordion-main/assets/images/background-pattern-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  /* margin-top: 10rem; */
+  height: 80dvh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background-color: hsl(0, 0%, 100%);
+  /* height: 450px; */
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: rem;
+  border-radius: 15px;
+}
+
+h1 {
+  margin-left: 2.3rem;
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+
+h1 svg {
+  transform: translateY(4px);
+  size: 50px;
+}
+
+.faq {
+  height: auto;
+}
+
+ul {
+  margin: 0px;
+  max-width: 550px;
+  list-style: none;
+}
+
+li {
+  text-align: left;
+  padding: 1rem 1rem 1rem 0rem;
+  border-bottom: 1px solid hsl(275, 100%, 97%);
+}
+
+.title {
+  display: flex;
+  cursor: pointer;
+}
+
+.title span {
+  text-align: right;
+  transform: translateY(10px);
+  transition: 0.8s;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(292, 42%, 14%);
+}
+
+h3:hover {
+  color: #ad28eb;
+}
+
+p {
+  /* width: 500px; */
+  line-height: 1.3rem;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(292, 16%, 49%);
+}
+
+@media (min-width: 550px) and (max-width: 1024px) {
+  body {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    height: 90dvh;
+    background-image: url(../faq-accordion-main/assets/images/background-pattern-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .app {
+    width: 350px;
+  }
+}
